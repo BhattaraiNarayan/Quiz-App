@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+        background-color: lightgray;
+        display: flex;                      
+        align-items: center;                        /* Vertical centering */
+        justify-content: center;                    /* Horizontal centering */
+        height: 100vh;                               /* Make the body take the full viewport height */
+        font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.game{
+    /* display: none; */
+    font-size: medium;
+}
+
+.content{
+    padding: 50px;
+}
+.att {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.question {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.question h1{
+    margin-bottom: 20px;
+}
+
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#333;
+}
+
+.submit{
+            background-color:purple;
+            font-size: 15px;
+            color: white;
+            border: none;
+            width: 100%;
+            height: 50px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 0;
+}
+
+.result{
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+.result h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.correct{
+    color: green;
+    margin-bottom: 20px;
+}
+.wrong{
+    color:red;
+    margin-bottom: 20px;
+}
+
+.result h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.result .play{
+    font-size: 20px;
+    color:white;
+    background-color:rebeccapurple;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
